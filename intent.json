@@ -1,0 +1,69 @@
+{
+    "intents":  [
+    {"tag": "greetings",
+    "patterns": ["hello mate", "hello", "hi", "hiya", "hey", "sup", "mate", "yo yo","what's up", "how's is it goin"],
+        "responses": ["Hello", "I am alex", "What can I do for you", "Howdie friend, how may I help you?"]
+},
+
+    {"tag": "goodbye",
+    "patterns": ["bye mate", "bye", "see ya", "adios", "talk to you later", "bye bye", "tata", "goodday"],
+    "responses": ["Bye Friend", "Glad I could help", "Bye:)", "Adios", "Bye, Have a nice day."]
+},
+    {"tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+    "responses": ["Happy to help!", "Any time!", "My pleasure"]
+},
+
+    {"tag": "noanswer",
+    "patterns": [],
+    "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+},
+{   "tag": "name",
+    "patterns": ["what is your name", "what should I call you", "whats your name?", "I am", "my name is and yours is"],
+    "responses": ["You can call me Tim.", "I'm Tim!", "I'm Tim aka Tech With Tim."]
+},
+{
+    "tag": "fertiliser ",
+    "patterns": ["best fertiliser", "best fertiliser in market", "Best fertiliser for crops", 
+                "best fertiliser for farming", "c", "fertilisers availbale in market", 
+                "fertiliser in farmer market", "best fertilisers", "what fertilisers to use", "best fertiliser", "best fertilisers in market"],
+    "responses": ["fertilisers ans"]
+
+},
+{
+    "tag": "soil",
+    "patterns": ["Soil nutrients", "Soil nutrients content", "Soil nutrients value", "soil condition", "Soils conditions", "Soil healthy condition", 
+                "soil conditions healthy", "Ideal soil", "Why healthy soil", "Ideal soil"],
+    "responses": ["soil ans"]
+},
+{
+    "tag": "dieseases",
+    "patterns": ["plant dieseases while farming", "Diseases in plant ", "Types of diseases in plant", "Diseases in plant type", "disease", "plant dieseases",
+                "most common diseases in plants", "plants and its diseases", ""],
+    "responses": ["disease ans"]
+},
+{
+    "tag": "bestcrop",
+    "patterns": ["best crop on my land", "best crop land", "best crops agriculture", "best agriculture crops", "best crop for agriculture",
+                "best crop for farming "],
+    "responses": ["bestcropans"]
+},
+{
+    "tag": "cropprice",
+    "patterns": ["Maximum price profit", "what must be the crop price ", "Will the price of the crop increase", "how important is the pricing",
+                "how is pricing ", "best way to make profit", "make profits", "make profit", "max profit", "maximum profit"],
+    "responses": ["croppicing ans"]
+},
+{
+    "tag": "farmingstuff",
+    "patterns": ["how are the equipments in farming", "how farmers can use the equipment", "what are farming equipments", "Farming equipments",
+                "When to use farming equipment", "Farmers using equipment"],
+    "responses": ["farmingstuff ans"]
+},
+{
+    "tag": "loans",
+    "patterns": ["Help in loans", "Apply for loans", "How to apply for loans", "Loans form bank", "loans from applying"],
+    "responses":[]
+}
+
+]}
