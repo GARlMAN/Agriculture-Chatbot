@@ -2,7 +2,7 @@
     "intents":  [
     {"tag": "greetings",
     "patterns": ["hello mate", "hello", "hi", "hiya", "hey", "sup", "mate", "yo yo","what's up", "how's is it goin"],
-        "responses": ["Hello", "I am alex", "What can I do for you", "Howdie friend, how may I help you??"]
+        "responses": ["Hello", "I am alex", "What can I do for you", "Howdie friend, how may I help you?"]
 },
 
     {"tag": "goodbye",
